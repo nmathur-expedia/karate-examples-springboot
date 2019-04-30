@@ -25,7 +25,7 @@ public class KarateExamplesSpringbootApplicationTests {
 
     @Test
     public void testParallel() {
-        Results results = Runner.parallel(this.getClass(), 5, "target/surefire-reports");
+        Results results = Runner.parallel(this.getClass(), 3, "target/surefire-reports");
         generateReport("target/surefire-reports");
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
     }
