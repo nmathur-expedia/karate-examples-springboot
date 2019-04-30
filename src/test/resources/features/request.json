@@ -1,0 +1,42 @@
+{
+  "avengers": {
+    "brand": "Marvel",
+    "characters": [
+      {
+        "id": 1,
+        "name": "Tony Stark",
+        "character": "IronMan"
+      },
+      {
+        "id": 2,
+        "name": "Steve Rogers",
+        "character": "Captain America"
+      },
+      {
+        "id": 3,
+        "name": "Bruce Banner",
+        "character": "hulk"
+      }
+    ]
+  },
+  "justice-league": {
+    "brand": "DC",
+    "characters": [
+      {
+        "id": 1,
+        "name": "Bruce Wayne",
+        "character": "BatMan"
+      },
+      {
+        "id": 2,
+        "name": "Clark Kent",
+        "character": "SuperMan"
+      },
+      {
+        "id": 3,
+        "name": "Diana Prince",
+        "character": "Wonder Woman"
+      }
+    ]
+  }
+}

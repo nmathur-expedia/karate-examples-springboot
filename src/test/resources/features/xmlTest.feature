@@ -3,5 +3,6 @@ Feature: Fuzzy and Exact Matching of XML
     Given url xmlURL
     When method get
     Then status 200
-    And match response.superheros.avengers.brand == 'Marvel'
+    And def xmlResponse = response
+    * match response.superheros.avengers.brand == 'Marvel'
     * match response.superheros.avengers.characters.element[0].name == 'Tony Stark'
